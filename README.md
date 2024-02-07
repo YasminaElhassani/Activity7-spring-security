@@ -1,24 +1,5 @@
 # Security Oauth2, OIDC, JWT, Keycloak , SpringBoot
 
-# Part 1: Keycloak, Jwt 
-
-## Bullet Points :
-### in this part we will cover the following topics:
-
-- Download Keycloak 23
-- Start Keycloak
-- Create an Admin account
-- Create a Realm
-- Create a client to secure
-- Create users
-- Create roles
-- Assign roles to users
-- Using Postman:
-    - Test authentication with the password
-    - Analyze the contents of both JWT Access Token and Refresh Token
-    - Test authentication with the Refresh Token
-    - Test authentication with Client ID and Client Secret
-    - Change the parameters of Access Token and Refresh Token
 
 ### Screenshots :
 
@@ -43,11 +24,7 @@
 
 
 
-#### 5. In the following screenshot, i changed the capabilitie configuration in keycloak and now even with the client username and password we can't get the Access Token and Refresh Token so we need to use the Client secret and Client ID to get the Access Token and Refresh Token:
-
-<img width="458" alt="Screenshot 2024-01-27 142629" src="captures/c5.png">
-<img width="457" alt="Screenshot 2024-01-27 142643" src="captures/c6.png">
-
+#
 
 
 # Part 2: SpringBoot, Keycloak, Jwt , Oauth2 
